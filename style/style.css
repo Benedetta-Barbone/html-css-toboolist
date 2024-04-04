@@ -32,7 +32,7 @@ h1{
     border: 0;
     padding: .5em 1em;
     color: white;
-    margin: 20px 5px 15px 20px;
+    margin: 20px 5px 15px 50px;
 }
 
 .btn_section{
@@ -46,4 +46,53 @@ h1{
 
 hr{
     color:rgba(152, 195, 240, 0.67) ;
+}
+
+.lista{
+    margin-left: 50px;
+    padding-left: 15px ;
+   list-style-type: circle;
+}
+
+.newtask, .today, .upcoming{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding: 30px 0px 5px 0px ;
+}
+
+li{
+    padding-top: 10px;
+}
+
+.editorial, .q1, .recruiting, .mobile, .website, .sales{
+    border-radius: 20%;
+    border: 0;
+    text-align: center;
+    padding: .2em;
+}
+
+.editorial{
+    background-color: rgb(205, 27, 131);
+    color: white;
+}
+.q1{
+    background-color: blue;
+    color: white;
+}
+.recruiting{
+    background-color: rgb(62, 150, 35);
+    color: white;
+}
+.mobile{
+    background-color: rgb(202, 233, 24);
+    color: white;
+}
+.website{
+    background-color: rgb(152, 44, 44);
+    color: white;
+}
+.sales{
+    background-color: rgb(120, 96, 79);
+    color: white;
 }
