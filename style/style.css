@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px 260px;
+}
+
+.logo{
+    padding: .5em 1em;
+    vertical-align: bottom;
+}
+
+h1{
+    display: inline-block;
+    font-size: 40px;
+}
+
+.container{
+    width: 1069.6px;
+    height: 600px;
+    border-color: rgb(203, 235, 235);
+    border-style: solid;
+    border-width: 30px 180px ;
+}
+
+.btn_task{
+    background-color: rgb(24, 130, 243);
+    border-radius: 10%;
+    border: 0;
+    padding: .5em 1em;
+    color: white;
+    margin: 20px 5px 15px 20px;
+}
+
+.btn_section{
+    border-radius: 10%;
+    border-color: grey;
+    padding: .4em .8em;
+    color: rgb(208, 200, 200);
+    background-color: white;
+    margin: 20px 0px 15px 0px;
+}
+
+hr{
+    color:rgba(152, 195, 240, 0.67) ;
+}
